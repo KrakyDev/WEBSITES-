@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sander Bermundo | Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Sander Bermundo</h1>
+        <p>Web Developer & IT Student</p>
+    </header>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card" onclick="showProjectDetails('portfolio')" >
+                <h3>Portfolio Website</h3>
+                <p>A personal website showcasing my skills, projects, and experience. It is responsive and easy to navigate, built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-card" onclick="showProjectDetails('simple')">
+                <h3>Simple Website</h3>
+                <p>A basic website designed for practice. It has a clean layout, simple navigation, and works on all devices.</p>
+            </div>
+            <div class="project-card" onclick="showProjectDetails('resume')">
+                <h3>Resume Website</h3>
+                <p>An interactive resume in website form. It presents my education, skills, and experience with a modern design.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="project-details" class="hidden">
+        <div class="project-content">
+            <span class="close-btn" onclick="closeProjectDetails()">&times;</span>
+            <div id="project-info"></div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-links">
+            <span class="tooltip">Email
+                <span class="tooltip-text">rednasbermundo@gmail.com</span>
+            </span>
+            <span class="tooltip">&#9990; Call
+                <span class="tooltip-text">09193193784</span>
+            </span>
+            <a href="https://github.com/Kraky02" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/sander-bermundo-62a39b2b3/" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+    
+    <footer> 
+        <p>© 2025 Sander Bermundo. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
