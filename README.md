@@ -1,6 +1,6 @@
 # Hi, I'm Sander! 👋 
 
-### Information Technology Student | Front-end Developer & Systems Enthusiast
+### Information Technology | Front-end Developer & Systems Enthusiast
 I specialize in building responsive web interfaces with a solid foundation in back-end logic and hardware-software integration. I'm all about creating tech solutions that bridge the gap between users and data.
 
 ---
@@ -31,7 +31,7 @@ I specialize in building responsive web interfaces with a solid foundation in ba
 Developed a specialized logging system to automate and track activity in senior care facilities.
 - **Scope:** System Integration, Database Management, Hardware Setup.
 - **Stack:** Arduino, PHP, MySQL.
-- [🔗 View Repo]([your-link-here](https://github.com/KrakyDev/RFID-Based-Employee-Attendance-Monitoring-System))
+- [🔗 View Repo] [https://github.com/KrakyDev/Projects/tree/main/RFID-AMS](url)
 
 #### 🌾 Agri-Market Info System
 A conceptual mobile solution designed to provide real-time market data to Filipino farmers.
